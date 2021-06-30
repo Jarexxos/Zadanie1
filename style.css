@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* body{
+    height:100vh;
+} */
+.side-navbar{
+    height:100%;
+    background-color:white;
+}
+.middle{
+    height:100%;
+    background-color:white;
+}
+
+.right{
+    height:100%;
+    background-color:white;
+}
+#logo{
+    margin-right: 35px;
+    height: 140px;
+    width: 200px; 
+    background-color: white;
+}
+.top-content{
+    display: flex;
+    width: 100%;
+}
+.top-navbar{
+    background-color: #023C5A;
+    height: 70px;
+    width: calc(100% - 200px);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.top-navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.top-navbar ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color:white;
+}
+.right-top, .left-top{
+    height: 70px;
+    background-color: #023C5A;
+    width: 100%;
+
+}
+.company-home{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dotted black;
+    padding-bottom: 30px;
+}
+.company-home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-home-content p{
+    font-size: 30px;
+}
+.text-left{
+    margin-left:10px;
+    font-size: 90%
+}
+.text-right {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 90%;   
+}
+.right-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.search{
+    cursor: pointer;
+}
+.menu{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.menu ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.border-menu{
+    border-bottom: 2px dotted black;
+    max-width: 90px;
+    padding-bottom: 15px;
+}
+.border-menu-2{
+    padding-top: 15px;
+}
+.icon-fb{
+    margin-bottom: 15px;
+}
+.icon-in{
+    margin-left: 6px;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    padding-top: 20px;
+
+} 
+.arrow{
+    fill: grey;
+    position: absolute;
+    left: 145px;
+    top: 395px;
+    cursor: pointer;
+}
+.left-arrow-second{
+    fill: grey;
+    position: absolute;
+    left: 145px;
+    top: 395px;
+    cursor: pointer;
+    display: none;
+}
+.hidden{
+    transform: translateX(-100%);
+}
+.expandable{
+    transition: 0.5s;
+}
+
+
+.container{
+    position:relative;
+    width:100%;
+    height:100Vh;
+  }
+  #input{
+    margin-bottom: 40px;
+  }
+  .search-field{
+ 
+  display:none;
+  }
+
+
+.panel-footer.panel-custom{
+    background-color: #023C5A;
+    height: 70px;
+    clear:both; 
+    bottom: 0;
+    width: 100%;
+}
